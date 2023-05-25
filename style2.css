@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+html,
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1rem;
+    background-color:rgba(0, 18, 60, 0.735);
+    color:azure;
+}
+
+h1#title {
+    padding-bottom:15px;
+    margin:5px;
+    font-size:4rem;
+}
+
+figure.discord_image {
+    display: inline-block
+}
+
+.discord {
+    display: inline-block;
+    width: 300px;
+    margin-top:10rem;
+}
+
+#discord_image {
+    width:500px;
+}
+
+.profile_image2 {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .main{
+        flex-direction: column;
+    }
+
+    #LINE_image {
+        width:100%;
+    }
+    
+    .profile_image {
+        display: none;
+    }
+
+    .profile_image2 {
+        display:block;
+    }
+}
+
+.footer {
+    display:inline-block;
+    vertical-align:bottom;
+}
+
+#Celebi {
+    width:100px;
+}
